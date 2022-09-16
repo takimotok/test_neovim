@@ -8,7 +8,8 @@ RUN apt-get update && \
   python3-dev \
   python3-pip \
   neovim \
-  python3-neovim && \
+  python3-neovim \
+  zsh && \
   update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60 && \
   update-alternatives --config vi && \
   update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60 && \
