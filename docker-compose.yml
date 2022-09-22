@@ -5,7 +5,7 @@ services:
     build: .
     container_name: "app"
     restart: always
-    working_dir: "/app/"
+    working_dir: "/root/.config/nvim/"
     tty: true
     volumes:
-      - .:/app
+      - ./src/nvim:/root/.config/nvim
