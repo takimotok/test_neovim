@@ -22,5 +22,5 @@ RUN apt-get update && \
 
 RUN mkdir -p ${XDG_CONFIG_HOME}/nvim
 
-WORKDIR ${XDG_CONFIG_HOME}/nvim
+WORKDIR /app
 
